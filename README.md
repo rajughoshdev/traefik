@@ -1,17 +1,4 @@
 
-<p align="center">
-<img src="docs/img/traefik.logo.png" alt="Træfik" title="Træfik" />
-</p>
-
-[![Build Status SemaphoreCI](https://semaphoreci.com/api/v1/containous/traefik/branches/master/shields_badge.svg)](https://semaphoreci.com/containous/traefik)
-[![Docs](https://img.shields.io/badge/docs-current-brightgreen.svg)](https://docs.traefik.io)
-[![Go Report Card](https://goreportcard.com/badge/containous/traefik)](http://goreportcard.com/report/containous/traefik)
-[![](https://images.microbadger.com/badges/image/traefik.svg)](https://microbadger.com/images/traefik)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/containous/traefik/blob/master/LICENSE.md)
-[![Join the chat at https://slack.traefik.io](https://img.shields.io/badge/style-register-green.svg?style=social&label=Slack)](https://slack.traefik.io)
-[![Twitter](https://img.shields.io/twitter/follow/traefikproxy.svg?style=social)](https://twitter.com/intent/follow?screen_name=traefikproxy)
-
-
 Træfik is a modern HTTP reverse proxy and load balancer that makes deploying microservices easy.
 Træfik integrates with your existing infrastructure components ([Docker](https://www.docker.com/), [Swarm mode](https://docs.docker.com/engine/swarm/), [Kubernetes](https://kubernetes.io), [Marathon](https://mesosphere.github.io/marathon/), [Consul](https://www.consul.io/), [Etcd](https://coreos.com/etcd/), [Rancher](https://rancher.com), [Amazon ECS](https://aws.amazon.com/ecs), ...) and configures itself automatically and dynamically.
 Pointing Træfik at your orchestrator should be the _only_ configuration step you need.
@@ -50,7 +37,6 @@ Træfik listens to your service registry/orchestrator API and instantly generate
 **Run Træfik and let it do the work for you!** 
 _(But if you'd rather configure some of your routes manually, Træfik supports that too!)_
 
-![Architecture](docs/img/architecture.png)
 
 ## Features
 
@@ -91,12 +77,7 @@ Alternatively, if you don't want to install anything on your computer, you can t
 
 If you are looking for a more comprehensive and real use-case example, you can also check [Play-With-Docker](http://training.play-with-docker.com/traefik-load-balancing/) to see how to load balance between multiple nodes.
 
-## Web UI
 
-You can access the simple HTML frontend of Træfik.
-
-![Web UI Providers](docs/img/web.frontend.png)
-![Web UI Health](docs/img/traefik-health.png)
 
 ## Documentation
 
